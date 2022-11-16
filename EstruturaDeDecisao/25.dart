@@ -27,15 +27,10 @@ void main() {
   stdin.readLineSync()![0].toLowerCase()=='s' ? counter+=1 : counter+=0;
   String sit = '';
 
+  counter == 3 || counter == 4 ? sit = 'cumplice' : null ;
   switch (counter) {
     case 2:
       sit = 'Suspeita';
-      break;
-    case 3:
-      sit = 'Cumplice';
-      break;
-    case 4:
-      sit = 'Cumplice';
       break;
     case 5:
       sit = 'Assasino';
