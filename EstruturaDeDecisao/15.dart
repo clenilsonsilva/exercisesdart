@@ -9,3 +9,27 @@
     //Triângulo Equilátero: três lados iguais;
     ///Triângulo Isósceles: quaisquer dois lados iguais;
     //Triângulo Escaleno: três lados diferentes; 
+
+import 'dart:io';
+
+void main(){
+  print('Digite o primeiro lado de um triangulo: ');
+  num a = num.parse(stdin.readLineSync()!);
+  print('Digite o segundo lado de um triangulo: ');
+  num b = num.parse(stdin.readLineSync()!);
+  print('Digite o terceiro lado de um triangulo: ');
+  num c = num.parse(stdin.readLineSync()!);
+  String forma = '', tipotr = '';
+  
+   if (a+b>c || a+c>b || c+b>a) {
+    forma = 'Forma Triangulo';
+    if (a==b && b==c) tipotr = 'Triangulo equilatero';
+    else if (a==b || b==c || c==a) tipotr = 'Triangulo Isoceles';
+    else tipotr = 'Triangulo Escaleno';
+   }
+   else{
+    forma = 'Nao forma Triangulo';
+   }
+   print(forma);
+   print(tipotr);
+}
