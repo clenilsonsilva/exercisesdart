@@ -9,8 +9,6 @@ void main() {
   print('Digite mais um numero inteiro: ');
   int b = int.parse(stdin.readLineSync()!);
   int soma = 0;
-  for (var i = a+1; i < b; i++) {
-    soma+=i;
-  }
+  for (var i = a+1; i < b; i++) soma+=i;
   print(soma);
 }

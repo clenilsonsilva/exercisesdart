@@ -18,9 +18,7 @@ void main() {
   print('Foram inseridas: ${lista.length} notas');
   print('Valores na ordem inserida: $lista');
   print('Valores invertidos um abaixo do outro: ');
-  for (var i = lista.length - 1; i >= 0; i--) {
-    print('|${lista[i]}|');
-  }
+  for (var i = lista.length - 1; i >= 0; i--) print('|${lista[i]}|');
   for (var i = 0; i < lista.length; i++) {
     if (lista[i] > media) listaf.add(listaf);
     if (lista[i] < 7) abaixo++;
