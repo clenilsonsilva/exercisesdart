@@ -5,9 +5,12 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  int valor = -1;
-  while (valor<0 || valor>10) {
-    print('Digite um valor entre 0 e 10: ');
-    valor = int.parse(stdin.readLineSync()!); 
+  String usuario = '';
+  String senha = '';
+  while (usuario==senha) {
+    print('Digite o usuario: ');
+    usuario = stdin.readLineSync()!; 
+    print('Digite a senha: ');
+    senha = stdin.readLineSync()!; 
   }
 }
