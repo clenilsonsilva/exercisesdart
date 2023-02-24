@@ -1,6 +1,5 @@
 //Altere o programa anterior, intercalando 3 
 //vetores de 10 elementos cada.
-import 'dart:io';
 
 void main() {
   List vetor_a = [1, 4, 7, 10, 13, 16, 19, 22, 25, 28],
