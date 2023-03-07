@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Encontrar números primos é uma tarefa difícil. Faça um programa que 
 gera uma lista dos números primos existentes entre 1 e um número 
 inteiro informado pelo usuário. 
@@ -21,3 +22,8 @@ void main() {
   }
   print(lista);
 }
+=======
+void main() {
+  
+}
+>>>>>>> 5e49552a097cb069d79389c8c4db7125c8d1d298
